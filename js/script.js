@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  var GITHUB_USERNAME = "faisalg1t";
+  var GITHUB_USERNAME = "faisaljs";
 
   /* ---------------- theme toggle ---------------- */
   var root = document.documentElement;

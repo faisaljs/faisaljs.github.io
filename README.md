@@ -24,7 +24,7 @@ fully responsive, keyboard accessible, respects reduced-motion.
 
 The Projects section and the repo/follower counts in the hero card are
 fetched **live** from the public GitHub API (`api.github.com`) for the
-username `faisalg1t` — no backend, no API key needed. It shows your 6
+username `faisaljs` — no backend, no API key needed. It shows your 6
 most-starred (then most-recently-updated) non-fork repos. Unauthenticated
 GitHub API calls are rate-limited (~60/hour per IP); if the limit is hit,
 the section falls back to a "view on GitHub" link instead of erroring.
@@ -38,8 +38,8 @@ To point it at a different account, change `GITHUB_USERNAME` at the top of
   Contact section. Replace it with your real address (search for `mailto:`).
 - **Eleone Hub link** — currently points at your GitHub profile as a safe
   fallback. Once the org/community has its own page, update the two
-  `https://github.com/faisalg1t` links inside the `#eleone` section.
-- **og:url / canonical** — set to `https://faisalg1t.github.io/`; update if
+  `https://github.com/faisaljs` links inside the `#eleone` section.
+- **og:url / canonical** — set to `https://faisaljs.github.io/`; update if
   you deploy elsewhere.
 - **Skills chips** — edit the list inside `#skills-grid` in `index.html`.
 - **About copy** — edit the two paragraphs inside `#about`.
@@ -61,10 +61,10 @@ Then open `http://localhost:8000`.
 ## Deploy
 
 **GitHub Pages (recommended, matches your username)**
-1. Create a repo named `faisalg1t.github.io`.
+1. Create a repo named `faisaljs.github.io`.
 2. Push these files to the `main` branch.
 3. Enable Pages in repo Settings → Pages → Source: `main` / root.
-4. Live at `https://faisalg1t.github.io`.
+4. Live at `https://faisaljs.github.io`.
 
 **Vercel / Netlify**
 Drag-and-drop this folder in the dashboard, or connect the repo — no
