@@ -32,18 +32,6 @@ the section falls back to a "view on GitHub" link instead of erroring.
 To point it at a different account, change `GITHUB_USERNAME` at the top of
 `js/script.js`.
 
-## Things to personalize before you ship
-
-- **Email** — `index.html` has a placeholder `hello@shahfaisal.dev` in the
-  Contact section. Replace it with your real address (search for `mailto:`).
-- **Eleone Hub link** — currently points at your GitHub profile as a safe
-  fallback. Once the org/community has its own page, update the two
-  `https://github.com/faisaljs` links inside the `#eleone` section.
-- **og:url / canonical** — set to `https://faisaljs.github.io/`; update if
-  you deploy elsewhere.
-- **Skills chips** — edit the list inside `#skills-grid` in `index.html`.
-- **About copy** — edit the two paragraphs inside `#about`.
-
 ## Run locally
 
 No build tools required. Either:
