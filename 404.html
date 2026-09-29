@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <meta name="robots" content="noindex" />
+    <title>Page not found | Shah Faisal</title>
+    <script>
+      var t;
+      try {
+        t = localStorage.getItem("theme");
+      } catch (e) {}
+      if (!t)
+        t =
+          window.matchMedia && matchMedia("(prefers-color-scheme:dark)").matches
+            ? "dark"
+            : "light";
+      document.documentElement.dataset.theme = t;
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #efeaff;
+        --fg: #000;
+        --card: #fff;
+      }
+      [data-theme="dark"] {
+        --bg: #15121f;
+        --fg: #f2eeff;
+        --card: #221d31;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        min-height: 100dvh;
+        display: grid;
+        place-items: center;
+        padding: 1.5rem;
+        background: var(--bg);
+        color: var(--fg);
+        font:
+          500 1.1rem/1.6 "Bricolage Grotesque",
+          system-ui,
+          sans-serif;
+      }
+      main {
+        max-width: 34rem;
+        background: var(--card);
+        border: 3px solid var(--fg);
+        box-shadow: 8px 8px 0 var(--fg);
+        padding: clamp(1.25rem, 5vw, 2.25rem);
+      }
+      h1 {
+        display: inline-block;
+        margin: 0 0 1.2rem;
+        font-size: clamp(4rem, 22vw, 8rem);
+        line-height: 0.9;
+        font-weight: 800;
+        letter-spacing: -0.05em;
+        background: #ff6fae;
+        color: #000;
+        border: 3px solid var(--fg);
+        box-shadow: 6px 6px 0 var(--fg);
+        padding: 0 0.15em;
+        transform: rotate(-3deg);
+      }
+      p {
+        margin: 0 0 1.5rem;
+      }
+      a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 48px;
+        background: #ffe94a;
+        color: #000;
+        border: 3px solid var(--fg);
+        box-shadow: 6px 6px 0 var(--fg);
+        padding: 0.7rem 1.25rem;
+        font-weight: 700;
+        text-decoration: none;
+      }
+      a:hover {
+        transform: translate(3px, 3px);
+        box-shadow: 3px 3px 0 var(--fg);
+      }
+      a:focus-visible {
+        outline: 3px dashed var(--fg);
+        outline-offset: 4px;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        a {
+          transition: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>404</h1>
+      <p>
+        That page doesn't exist, or it moved. Everything worth seeing is on the
+        home page.
+      </p>
+      <a href="/">Back to the home page</a>
+    </main>
+  </body>
+</html>

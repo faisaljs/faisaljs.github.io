@@ -49,6 +49,7 @@ Then open `http://localhost:8000`.
 ## Deploy
 
 **GitHub Pages (recommended, matches your username)**
+
 1. Create a repo named `faisaljs.github.io`.
 2. Push these files to the `main` branch.
 3. Enable Pages in repo Settings → Pages → Source: `main` / root.
